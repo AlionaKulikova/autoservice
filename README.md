@@ -17,4 +17,6 @@
 <div align="center">
 <img src="https://sun9-44.userapi.com/impg/B5C75oY9RXaNvf6EYA0TgQGd6TCgCADRqcw_uw/VBEIm6WHfa4.jpg?size=859x728&quality=95&sign=ba59bdf94c0e07cdbc7fec163a54704a&type=album" align="center" style="width: 60%" />
 </div>  
-  
+  <div align="center">
+<img src="https://sun9-32.userapi.com/impg/Ad2sAXz8kmvHAPg3dKeNx5VisgObz6HUox89Ig/XAdxtLtOgUM.jpg?size=1858x960&quality=95&sign=8729da13adf40884c3af536fb8bc8c94&type=album" align="center" style="width: 100%" />
+</div>  
