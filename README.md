@@ -13,8 +13,8 @@
 
 
 ## Данный сайт содержит информацию об автосервисе, который находится в г.Нововоронеже. Здесь можно заказать необходимы детали для автомобиля. Связаться с управляющим автосервиса. Адаптирован под планшет и мобильные устройства.
-## Эту работу я выполняла до обучения в Яндекс Практикуме. Планирую улучшить структуру и код, используя знания полученные на курсах.
+### Эту работу я выполняла до обучения в Яндекс Практикуме. Планирую улучшить структуру и код, используя знания полученные на курсах.
  
-  <div align="center">
-<img src="https://sun9-32.userapi.com/impg/Ad2sAXz8kmvHAPg3dKeNx5VisgObz6HUox89Ig/XAdxtLtOgUM.jpg?size=1858x960&quality=95&sign=8729da13adf40884c3af536fb8bc8c94&type=album" align="center" style="width: 80%" />
+ <div align="center">
+<img src="https://sun9-33.userapi.com/impg/4LdiMwNQsrNJSDl0A8WV_w27aFCKfnwMd0ekCw/A8e4bbuis30.jpg?size=1844x964&quality=95&sign=0f1deb15a33bc32c81530271bdf96caa&type=album" align="center" style="width: 80%" />
 </div>  
