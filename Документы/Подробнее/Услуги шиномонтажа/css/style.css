@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@691&display=swap');/*h1*/
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');/*p*/
+.box .boxes, .boxtwo, .gallery{display:flex; flex-flow: row wrap;}
+.boxtwo{
+	align-items: center;
+	border-bottom: 5px solid red;
+	border-top: 5px solid red;
+}
+
+.header {
+  padding: 0;
+  background: #F4F4F4;
+	background-size: cover;
+}
+
+.info {
+	background-color: white;
+}
+
+ h1 {
+ 	font-family: 'Jura', sans-serif;
+	color:#FF0000;
+  border-bottom: 1px solid #CCC;
+  word-break: break-all;
+}
+ mark {
+    background: red;
+  }
+
+a { 
+    text-decoration: none; 
+    /* Отменяем подчеркивание у ссылки */
+   }
+
+
+.boxes {
+	font-family: 'Play', sans-serif;
+	flex: 1 1 250px;
+	max-width:300px ;
+	margin: 10px;
+	border-radius: 5px;
+	padding: 10px 10px 0 10px;
+	background-color: #F4F4F4;
+	display: flex;
+	flex-flow: column;
+	display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
+
+}
+
+/*.boxes .more {margin-top: auto;}*/
+.log {
+	font-family: 'Play', sans-serif;
+	flex: 1 1 250px;
+	margin: 10px;
+	border-radius: 5px;
+	padding: 10px 10px 0 10px;
+	background-color: #F4F4F4;
+	display: flex;
+	flex-flow: column;
+	display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
+}
+.gallery {
+ justify-content:space-between;
+	align-items:stretch;
+}
+
+.gallery h2 {
+	font-size: 15px;
+	font-style: bold;
+}
+
+@media (max-width: 800px) {
+	.header {width: 100%;}
+	.info  {width: 100%;}
+	.gallery {width: 100%;}
+	.log {width: 100%;}
+	.albfirst {width: 100%;}
+}
+
+
+@media (max-width: 500px) {
+	.header {width: 100%;}
+	.info  {width: 100%;}
+	.gallery {width: 100%;}
+	.log {width: 100%;}
+	.albfirst {width: 100%;}
+}
+
+	@media (max-width: 360px) {
+		.info  {width: 100%;}
+		.gallery {width: 100%;}
+			.log {width: 100%;}
+			.albfirst {width: 100%;}
+}

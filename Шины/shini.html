@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+<meta charset="utf-8">
+<title> Автосервис в Нововоронеже</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="../imgs/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="../css/form.css">
+ <link rel="stylesheet" href="../css/styles.css">
+	
+</head>
+<body>
+<!-- основной раздел -->
+<div class="header">
+	
+  <div class="section">
+	  
+    <div class="nav">
+	<a class="button" href="../index.html">Главная</a>
+       <a class="button" href="../Запчасти/zap.html">Запчасти</a>
+    <a class="button  button-primary" href="shini.html">Шины</a>
+    <a class="button" href="../Диски/diski.html">Диски</a>
+    	<a class="button" href="../Контакты/contact.html">Контакты</a>
+    </div>
+    
+  </div>
+</div>
+
+
+
+
+
+<div class="info">
+	 <h1>Шины</h1>
+	 <a class="button" href="#" onclick="history.back(-1);">Назад</a>
+<a class="button" href="../Документы/Информация/info.html">Инфо</a>
+
+
+<div class="warpper">
+	
+<div class="form">
+
+		<form action="sendmail.php" accept-charset="windows-1251" enctype="multipart/form-data" method="post" id="form" class="form_body">
+		<h1 class="form_title">Подборка шин</h1>
+
+		<div class="form_item">
+			<label for="forName" class="form_lable">Имя*:</label>
+			<input id="forName" type="text" name="name" class="form_input _req">
+		</div>
+
+<div class="form_item">
+			<label for="forTel" class="form_lable">Телефон*:</label>
+			<input id="forTel" type="text" name="telephone" class="form_input _req">
+		</div>
+
+
+
+<div class="form_item">
+			<label for="forEmail" class="form_lable">E-mail*:</label>
+			<input id="forEmail" type="text" name="email" class="form_input _req _email">
+		</div>
+
+<div class="form_item">
+	<div class="checkbox">
+   <label for="formRasTO" class="form_label">Сезонность:</label>
+    <input id="leto" type="checkbox"  name="letnie" class="checkbox_input_add" > <label for="leto" class="checkbox_label_add" >Летние</label><br>
+    <input id="zima" type="checkbox"  name="zimnie" class="checkbox_input_add"><label for="zima" class="checkbox_label_add" > Зимние</label><br>
+    <input id="" type="checkbox"  name="vsesezonnie" class="checkbox_input_add"><label for="zimaleto" class="checkbox_label_add" > Всесезонные</label><br>
+    
+  </div>
+  </div>
+
+
+
+
+
+  <div class="form_item">
+	<div class="checkbox">
+   <label for="formRasTO" class="form_label">Наличие шипов:</label>
+    <input id="yship" type="checkbox"  name="yesShipi" class="checkbox_input_add" > <label for="yship" class="checkbox_label_add" > С шипами</label><br>
+    <input id="nship" type="checkbox"  name="noShipi" class="checkbox_input_add"><label for="nship" class="checkbox_label_add" > Без шипов</label><br>
+    
+  </div>
+  </div>
+
+
+<div class="form_item">
+			<div class="form_label">Производитель</div>
+			<select name="proizvoditel" class="select">
+				<option value="NoVariant" selected>Любой</option>
+				<option value="amtel">AMTEL</option>
+				<option value="dgGoodrich">BF GOODRICH</option>
+				<option value="bridgestone">Bridgestone</option>
+				<option value="continental">Continental</option>
+				<option value="Matador">Matador</option>
+				<option value="Kormoran">Kormoran</option>
+				<option value="NITTO">NITTO</option>
+				<option value="KAMA">KAMA</option>
+				<option value="Marshal">Marshal</option>
+				<option value="GT Radial">GT Radial</option>
+				<option value="Viatti">Viatti</option>
+				<option value="Roadstone">Roadstone</option>
+				<option value="Yokohama">Yokohama</option>
+				<option value="DUNLOP">DUNLOP</option>
+				<option value="KUMHO">KUMHO</option>
+				<option value="HANKOOK">HANKOOK</option>
+				<option value="Michelin">Michelin</option>
+				<option value="GISLAVED">GISLAVED</option>
+				<option value="Pirelli">Pirelli</option>
+				<option value="NOKIAN">NOKIAN</option>
+				<option value="SAVA">SAVA</option>
+				<option value="Ovation">Ovation</option>
+				<option value="GOODYEAR">GOODYEAR</option>
+				<option value="TIGAR">TIGAR</option>
+				<option value="Tunga">Tunga</option>
+				<option value="MAXXIS">MAXXIS</option>
+				<option value="Nexen">Nexen</option>
+				<option value="TOYO">TOYO</option>
+				<option value="Triangle">Triangle</option>
+				<option value="drugoi">Другой</option>
+
+			</select>
+				</div>
+
+
+
+				<div class="form_item">
+			<div class="form_label">Ширина</div>
+			<select name="Shirina" class="select">
+				<option value="NoVariant" selected>Не выбрана</option>
+				<option class="col" value="v115">115</option>
+				<option value="125">125</option>
+				<option value="130">130</option>
+				<option value="135">135</option>
+				<option value="140">140</option>
+				<option value="145">145</option>
+				<option value="150">150</option>
+				<option value="155">155</option>
+				<option value="160">160</option>
+				<option value="165">165</option>
+				<option value="170">170</option>
+				<option value="175">175</option>
+				<option value="185">185</option>
+				<option value="190">190</option>
+				<option value="195">195</option>
+				<option value="200">200</option>
+				<option value="205">205</option>
+				<option value="215">215</option>
+				<option value="225">225</option>
+				<option value="235">235</option>
+				<option value="240">240</option>
+				<option value="245">245</option>
+				<option value="255">255</option>
+				<option value="265">265</option>
+				<option value="275">275</option>
+				<option value="285">285</option>
+				<option value="290">290</option>
+				<option value="295">295</option>
+				<option value="305">305</option>
+				<option value="315">315</option>
+				<option value="320">320</option>
+				<option value="325">325</option>
+				<option value="335">335</option>
+				<option value="345">345</option>
+				<option value="355">355</option>
+
+			</select>
+				</div>
+
+
+
+				<div class="form_item">
+			<div class="form_label">Профиль</div>
+			<select name="Profil" class="select">
+				<option value="NoVariant" selected>Не выбран</option>
+				<option value="20">20</option>
+				<option value="25">25</option>
+				<option value="30">30</option>
+				<option value="35">35</option>
+				<option value="40">40</option>
+				<option value="45">45</option>
+				<option value="50">50</option>
+				<option value="55">55</option>
+				<option value="60">60</option>
+				<option value="65">65</option>
+				<option value="70">70</option>
+				<option value="75">75</option>
+				<option value="80">80</option>
+				<option value="85">85</option>
+				<option value="90">90</option>
+				<option value="95">95</option>
+			</select>
+				</div>
+
+
+
+				<div class="form_item">
+			<div class="form_label">Диаметр</div>
+			<select name="diametr" class="select">
+				<option value="NoVariant" selected>Не выбран</option>
+				<option value="12">12</option>
+				<option value="13">13</option>
+				<option value="14">14</option>
+				<option value="15">15</option>
+				<option value="16">16</option>
+				<option value="17">17</option>
+				<option value="18">18</option>
+				<option value="19">19</option>
+				<option value="20">20</option>
+				<option value="21">21</option>
+				<option value="22">22</option>
+				<option value="23">23</option>
+				<option value="24">24</option>
+				<option value="26">26</option>
+				<option value="28">28</option>
+				<option value="30">30</option>
+
+			</select>
+				</div>
+
+
+<div class="form_item">
+				<div class="form_label">Прикрепить фото </div>
+				<div class="file">
+					<div class="file_item">
+						<input id="formImage" accept=".jpg, .png, .gif" type="file" name="image" class="file_input">
+						<div class="file_button">Выбрать</div>
+					</div>
+
+					<div id="formPreview" class="file_preview"></div> <!--для видимоти выбранного файла в форме-->
+			
+		</div>
+	</div>
+
+
+
+		<div class="form_item">
+			<label for="formMessage" class="form_label">Укажите дополнительную информацию:</label>
+            <textarea name="message" id="form_Message" class="form_input"></textarea>
+				</div>
+
+
+
+
+
+
+
+
+
+		<div class="form_item">
+			<div class="checkbox">
+				<input  id="formAgreement" checked  type="checkbox"  name="agreement" class="checkbox_input _req"> <!--checked означает выбор этого элемента в форме-->
+				<label  for="formAgreement" class="checkbox_label"><span>Я даю свое согласие на обработку персональных данных в соответствии <a href="../Документы/Соглашение/agree.html">с условием</a></span></label>
+			</div>
+		</div>
+		<button type="submit" class="form_button">Отправить</button>
+	</form>
+				</div>
+				
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+<!-- колонтитул -->
+<div class="footer">
+
+	<div class="logo">
+	<img src="../imgs/logoico.png"  width="101" height="101" alt="Логотип">
+	</div>
+
+  <div class="copyright">
+	      <p> © Автосервис в Нововоронеже</p>
+<p>
+	 <ul>
+   <a href="../index.html">Главная</a>
+     <a href="../Запчасти/zap.html">Запчасти</a>
+		 <a href="shini.html">Шины</a>
+		 <a href="../Диски/diski.html">Диски</a>
+       <a href="../Контакты/contact.html">Контакты</a>
+
+    </ul>
+</p>
+ </div>
+	 
+    <div class="signup">
+
+       <form class="container">
+
+	   <p>
+		 <img src="../imgs/cell.ico"  width="30" height="30" alt="тел."> <a href="tel:+7 (910) 340 30 68">+7 (910) 340 30 68</a>
+			
+	  </p>
+ <p>
+     <img src="../imgs/cell.ico" width="30" height="30" alt="тел."> <a href="tel:+7 (910) 241 69 78">+7 (910) 241 69 78</a>
+      
+    </p>
+       <p>
+        <img src="../imgs/emails.ico" width="30" height="30" alt="Отправить"> 
+		   <a href="mailto:serzhxarin@yandex.ru">Написать нам письмо</a>
+	     
+	  </p>
+
+ <p>
+        <img src="../imgs/insta.ico"width="30" height="30" alt="Инстаграм"> 
+       <a href="https://instagram.com/auto_nv?utm_medium=copy_link">Наш инстаграм</a>
+       
+    </p>
+
+    <p>
+        <img src="../imgs/nav.ico"width="30" height="30" alt="Навигатор"> 
+       <a href="https://goo.gl/maps/zYyRNbcb49HuoSU19">51.315558, 39.229919</a>
+       
+    </p> 
+      </form>
+
+  </div>
+	
+</div>
+
+
+
+
+
+
+
+
+<script src="js/form.js"></script>
+
+
+
+
+
+
+	</body>
+</html>

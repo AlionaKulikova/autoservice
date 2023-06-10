@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@691&display=swap');/*h1*/
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');/*h2*/
+.box .boxes, .boxtwo, .albfirst, .albsecond {display:flex; flex-flow: row wrap;}
+
+
+.boxtwo{
+  align-items: center;
+  border-bottom: 1px solid #CCC;
+  border-top: 1px solid #CCC;
+}
+.boxtwo .albfirst img {align-items: center;}
+h1 {
+  font-family: 'Jura', sans-serif;
+	color:#FF0000;
+  border-bottom: 1px solid #CCC;
+  word-wrap: break-word;
+}
+#if p {
+  font-size: 25px;
+margin-top: -20px;
+margin-left: 85px;
+  margin-bottom: -5px;
+}
+#if ul{
+  font-size: 18px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-bottom: 1px solid #CCC;;
+  border-top: 1px solid #CCC;;
+}
+#if  a {
+  color: darkgray;
+}
+#if a:hover {
+  color: #FF0000;
+}
+#ifN p{
+font-size: 30px;
+margin-top: -20px;
+margin-left: 85px;
+  margin-bottom: -5px;
+}
+
+
+#ifN ul{
+  font-size: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-bottom: 1px solid #CCC;;
+  border-top: 1px solid #CCC;;
+}
+
+   li {
+    list-style: none; /* Убираем исходные маркеры */
+    background: url(../../../../imgs/spis.png) no-repeat 0 4px; /* Параметры фона */
+    padding-left: 24px; /* Смещаем текст вправо */ 
+   }
+   
+#ifN li{
+  list-style: none; /* Убираем исходные маркеры */
+    background: url(../../../../imgs/spis.png) no-repeat 0 4px; /* Параметры фона */
+    padding-left: 24px; 
+}
+ mark {
+  color: white;
+    background: red;
+  }
+a { 
+    text-decoration: none; 
+    /* Отменяем подчеркивание у ссылки */
+   }
+
+.header {
+  padding: 0;
+  background: #F4F4F4;
+	background-size: cover;
+	}
+
+.info {background-color: white;}
+
+.box div {
+  font-family: 'Play', sans-serif;
+
+	flex: 1 1 250px;
+	margin: 10px;
+	border-radius: 5px;
+	padding: 10px 10px 0 10px;
+	background-color: white;
+	display: flex;
+	flex-flow: column;
+	display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
+}
+
+.box {margin-top: auto;}
+
+.boxes { 
+	justify-content: center;
+	align-items: center;
+}
+.boxtwo { 
+	justify-content: center;
+	align-items: center;
+}
+
+.image img {
+  border-radius: 5px;
+	}
+
+
+
+/*-----------------Size----------------------------*/
+
+@media (max-width: 500px) {
+   .nav { flex-flow: column;}
+  .nav a {width: 100%; margin-bottom: 2px;}
+  .info {flex: 0 1  250px}
+  .info  h1 {width: 100%; margin-bottom: 2px;}
+  .boxes{flex: 0 1  250px}
+  .boxtwo{flex: 0 1  250px}
+  .box {flex: 0 1 250px}
+  .box .boxes .boxtwo img {width: 100%; margin-bottom: 2px;}
+  .albfirst img {height: 75%; width: 100%; margin-bottom: 2px;}
+ }
+  
+  @media (max-width: 360px) {
+    .nav { flex-flow: column;}
+  .nav a {width: 100%; margin-bottom: 2px;}
+  .info {flex: 0 1  250px}
+  .info  h1 {width: 100%; margin-bottom: 2px;}
+  .boxes{flex: 0 1  250px}
+  .boxtwo{flex: 0 1  250px}
+  .box {flex: 0 1 250px}
+  .box .boxes .boxtwo img {width: 100%; margin-bottom: 2px;}
+
+
+  .albfirst img {height: 75%; width: 100%; margin-bottom: 2px;}
+ }
+
+
+
+
+
+
+
+
+		
+		
+		
+		
+		

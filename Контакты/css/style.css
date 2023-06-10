@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@691&display=swap');/*h1*/
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');/*p*/
+.boxes, .gallery, .iframe{display:flex; flex-flow: row wrap;}
+
+.header {
+  padding: 0;
+  background: #F4F4F4;
+	background-size: cover;
+}
+
+.info {background-color: white;}
+
+ h1 {
+  font-family: 'Jura', sans-serif;
+	color:#FF0000;
+  border-bottom: 1px solid #CCC;
+}
+a { 
+    text-decoration: none; 
+    /* Отменяем подчеркивание у ссылки */
+   }
+.gallery a {
+  text-decoration: none; 
+  color: #2B2B2B;
+}
+.boxes div {
+  font-family: 'Play', sans-serif;
+	flex: 1 1 250px;
+	margin: 10px;
+	border-radius: 5px;
+	padding: 10px 10px 0 10px;
+	background-color: #F4F4F4;;
+	display: flex;
+	flex-flow: column;
+	display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
+}
+
+.boxes {margin-top: auto;}
+
+.gallery { 
+	justify-content:space-between;
+	align-items:stretch;
+}
+/*---------------------Size------------------*/
+@media (max-width: 500px) {
+   .nav { flex-flow: column;}
+  .nav a {width: 100%; margin-bottom: 2px;}
+  .info {flex: 0 1  250px}
+  .info  h1 {width: 100%; margin-bottom: 2px;}
+  .gallery{flex: 0 1  250px}
+  .boxes {flex: 0 1 250px}
+  .boxes .gallery iframe {width: 100%; margin-bottom: 2px;}
+ }
+  
+  @media (max-width: 360px) {
+    .nav { flex-flow: column;}
+  .nav a {width: 100%; margin-bottom: 2px;}
+  .info {flex: 0 1  250px}
+  .info  h1 {width: 100%; margin-bottom: 2px;}
+  .gallery{flex: 0 1  250px}
+  .boxes {flex: 0 1 250px}
+  .boxes .gallery iframe {width: 100%; margin-bottom: 2px;}
+ }

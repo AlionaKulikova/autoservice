@@ -1,0 +1,218 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@700;900&display=swap"
+        rel="stylesheet">
+    <title>Новый сайт на хостинге Fozzy</title>
+    <style>
+        @charset "utf-8";
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: #fff;
+            color: #000;
+            -webkit-text-size-adjust: none;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .hello-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .hello-wrapper {
+            color: #000;
+            display: flex;
+            text-align: center;
+        }
+
+        .hello-title {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 900;
+            font-size: 42px;
+            line-height: 42px;
+            margin-bottom: 32px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 27px;
+            max-width: 525px;
+            color: #4B5563;
+            margin: 20px 0;
+        }
+
+        .hello-separate-line {
+            display: none;
+        }
+
+        .hello-right {
+            text-align: left;
+        }
+
+        a:hover {
+            color: #f3671b;
+            border-bottom: 1px #f3671b solid;
+        }
+
+        .logo-img {
+            width: 522px;
+            height: auto;
+            padding-right: 42px;
+        }
+
+        .hello-button-link {
+            font-family: 'Montserrat', sans-serif;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 27px;
+            line-height: 110%;
+            border-bottom: 1px solid #3b82ec3b;
+            color: #3B82F6;
+            padding-bottom: 3px;
+        }
+
+        @media screen and (min-width: 1024px) and (max-width:1439px) {
+            .logo-img {
+                width: 389px;
+                height: auto;
+                padding-right: 42px;
+                padding-top: 30px;
+
+            }
+
+            .hello-title {
+                font-size: 34px;
+                line-height: 34px;
+            }
+
+            .hello-button-link {
+                font-size: 24px;
+                line-height: 24px;
+            }
+        }
+
+        @media screen and (min-width: 320px) and (max-width:1023px) {
+            .logo-img {
+                width: 291px;
+                height: auto;
+                padding-right: 42px;
+            }
+        }
+
+        @media screen and (min-width: 768px) and (max-width:1023px) {
+            .hello-wrapper {
+                max-width: 700px;
+            }
+
+            .logo-img {
+                padding-top: 30px;
+            }
+
+            .hello-title {
+                font-size: 30px;
+                line-height: 30px;
+            }
+
+            .hello-container {
+                padding: 28px;
+            }
+
+            .hello-button-link {
+                font-size: 21px;
+                line-height: 21px;
+            }
+        }
+
+        @media screen and (min-width: 320px) and (max-width:767px) {
+
+            .hello-container {
+                height: 100%;
+                padding: 28px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100%;
+            }
+
+            .hello-wrapper {
+                flex-direction: column;
+                color: #000;
+                text-align: center;
+                line-height: 33px;
+                letter-spacing: 0.02em;
+                width: 100%;
+                height: 100%;
+            }
+
+            .logo-img {
+                width: 291px;
+                height: 215px;
+                padding-right: 0;
+            }
+
+            .hello-title {
+                font-size: 30px;
+                line-height: 30px;
+                margin-bottom: 24px;
+                margin-top: -20px;
+                max-width: 275px;
+            }
+
+            p {
+                font-size: 17px;
+                line-height: 25px;
+            }
+
+            .hello-button-link {
+                font-size: 21px;
+                line-height: 23px;
+            }
+        }
+
+        @media screen and (min-width: 320px) and (max-width: 426px) {
+            .hello-left {
+                text-align: left;
+            }
+
+            .hello-separate-line {
+                display: flex;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hello-container">
+        <div class="hello-wrapper">
+            <div class="hello-left">
+                <img class="logo-img" src="http://47-3.s.cdn13.com/hello-cheetah-logo.png">
+            </div>
+            <div class="hello-right">
+                <h1 class="hello-title">Добро пожаловать<br>на хостинг Fozzy!</h1>
+                <p>Это стандартная страница-заглушка, которая создается для каждой новой услуги хостинга. Если вы видите
+                    эту страницу, значит ваша услуга хостинга активна.</p>
+                <p>Чтобы заменить эту страницу на ваш сайт, зайдите
+                    в файловый менеджер вашей панели управления, удалите файл index.html и загрузите файлы вашего сайта.
+                </p>
+                <a class="hello-button-link" onclick="hideLink()" href="#">Смотреть
+                    <br class="hello-separate-line">видео-инструкцию</a>
+            </div>
+        </div>
+    </div>
+    <script>
+        function hideLink() {
+            location.replace("https://accounts.fozzy.com/index.php?rp=/knowledgebase/179/How-to-upload-website-files-using-control-panel.html&language=russian")
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+<meta charset="utf-8">
+<title> Автосервис в Нововоронеже</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="../imgs/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="../css/form.css">
+ <link rel="stylesheet" href="../css/styles.css">
+	
+</head>
+<body>
+<!-- основной раздел -->
+<div class="header">
+	
+  <div class="section">
+	  
+    <div class="nav">
+	<a class="button" href="../index.html">Главная</a>
+     <a class="button" href="../Запчасти/zap.html">Запчасти</a>
+    <a class="button" href="../Шины/shini.html">Шины</a>
+    <a class="button button-primary" href="diski.html">Диски</a>
+   	<a class="button" href="../Контакты/contact.html">Контакты</a>
+    </div>
+    
+  </div>
+</div>
+
+
+
+
+
+<div class="info">
+	 <h1>Диски</h1>
+	 <a class="button" href="#" onclick="history.back(-1);">Назад</a>
+<a class="button" href="../Документы/Информация/info.html">Инфо</a>
+
+
+<div class="warpper">
+	
+<div class="form">
+
+		<form action="sendmail.php" accept-charset="windows-1251" enctype="multipart/form-data" method="post" id="form" class="form_body">
+		<h1 class="form_title">Подборка дисков</h1>
+
+		<div class="form_item">
+			<label for="forName" class="form_lable">Имя*:</label>
+			<input id="forName" type="text" name="name" class="form_input _req">
+		</div>
+
+<div class="form_item">
+			<label for="forTel" class="form_lable">Телефон*:</label>
+			<input id="forTel" type="text" name="telephone" class="form_input _req">
+		</div>
+
+
+
+<div class="form_item">
+			<label for="forEmail" class="form_lable">E-mail*:</label>
+			<input id="forEmail" type="text" name="email" class="form_input _req _email">
+		</div>
+
+
+<div class="form_item">
+			<label for="mod" class="form_lable">Модель:</label>
+			<input id="mod" type="text" name="model" class="form_input">
+		</div>
+
+
+
+
+
+
+
+
+
+
+<div class="form_item">
+			<div class="form_label">Марка</div>
+			<select name="marka" class="select">
+				<option value="NoVariant" selected>не выбрана</option>
+				<option value="AUDI">AUDI</option>
+				<option value="ACURA">ACURA</option>
+				<option value="ALFA ROMEO">ALFA ROMEO</option>
+				<option value="ASTON MARTIN">ASTON MARTIN</option>
+				<option value="BENTLEY">BENTLEY</option>
+				<option value="BYD">BYD</option>
+				<option value="BMW">BMW</option>
+				<option value="BRILLIANCE">BRILLIANCE</option>
+				<option value="BUICK">BUICK</option>
+				<option value="BUGATTI">BUGATTI</option>
+				<option value="CADILLAC">CADILLAC</option>
+				<option value="CHANGAN">CHANGAN</option>
+				<option value="CHEVROLET">CHEVROLET</option>
+				<option value="CHERY">CHERY</option>
+				<option value="CHRYSLER">CHRYSLER</option>
+				<option value="CITROEN">CITROEN</option>
+				<option value="DAEWOO">DAEWOO</option>
+				<option value="DACIA">DACIA</option>
+				<option value="DAIHATSU">DAIHATSU</option>
+				<option value="DODGE">DODGE</option>
+				<option value="FAW">FAW</option>
+				<option value="FERRARI">FERRARI</option>
+				<option value="FIAT">FIAT</option>
+				<option value="FORD">FORD</option>
+				<option value="GEELY">GEELY</option>
+				<option value="GMC">GMC</option>
+				<option value="GREAT WALL">GREAT WALL</option>
+				<option value="HONDA">HONDA</option>
+				<option value="HUMMER">HUMMER</option>
+				<option value="HYUNDAI">HYUNDAI</option>
+				<option value="INFINITI">INFINITI</option>
+				<option value="JAGUAR">JAGUAR</option>
+				<option value="JEEP">JEEP</option>
+				<option value="KIA">KIA</option>
+				<option value="LAMBORGHINI">LAMBORGHINI</option>
+				<option value="LAND ROVER">LAND ROVER</option>
+				<option value="LANCIA">LANCIA</option>
+				<option value="LEXUS">LEXUS</option>
+				<option value="LIFAN">LIFAN</option>
+				<option value="LINCOLN">LINCOLN</option>
+				<option value="LOTUS">LOTUS</option>
+				<option value="MARUSSIA">MARUSSIA</option>
+				<option value="MAYBACH">MAYBACH</option>
+				<option value="MAZDA">MAZDA</option>
+				<option value="MERCEDES">MERCEDES</option>
+				<option value="MASERATI">MASERATI</option>
+				<option value="MINI">MINI</option>
+				<option value="MCLAREN">MCLAREN</option>
+				<option value="MITSUBISHI">MITSUBISHI</option>
+				<option value="NISSAN">NISSAN</option>
+				<option value="OPEL">OPEL</option>
+				<option value="PEUGEOT">PEUGEOT</option>
+				<option value="PORSCHE">PORSCHE</option>
+				<option value="RENAULT">RENAULT</option>
+				<option value="SAAB">SAAB</option>
+				<option value="SEAT">SEAT</option>
+				<option value="SKODA">SKODA</option>
+				<option value="SUBARU">SUBARU</option>
+				<option value="SUZUKI">SUZUKI</option>
+				<option value="TOYOTA">TOYOTA</option>
+				<option value="PONTIAC">PONTIAC</option>
+				<option value="ROLLS-ROYCE">ROLLS-ROYCE</option>
+				<option value="SMART">SMART</option>
+				<option value="SSANGYONG">SSANGYONG</option>
+				<option value="TESLA">TESLA</option>
+				<option value="VOLVO">VOLVO</option>
+				<option value="VOLKSWAGEN">VOLKSWAGEN</option>
+				<option value="ВАЗ">ВАЗ</option>
+				<option value="ГАЗ">ГАЗ</option>
+				<option value="ЗАЗ">ЗАЗ</option>
+				<option value="TAGAZ">TAGAZ</option>
+				<option value="УАЗ">УАЗ</option>
+				<option value="МОТОЦИКЛ">МОТОЦИКЛ</option>
+				<option value="HAVAL">HAVAL</option>
+				<option value="ROVER">ROVER</option>
+				<option value="МОСКВИЧ">МОСКВИЧ</option>
+				<option value="DATSUN">DATSUN</option>
+				<option value="GAC">GAC</option>
+			
+
+
+
+			</select>
+				</div>
+
+
+
+				<div class="form_item">
+			<div class="form_label">Тип двигателя</div>
+			<select name="dvigatel" class="select">
+				<option value="NoVariant" selected>не выбран</option>
+				<option value="benzinovii">бензиновый</option>
+				<option value="dizelnii">дизельный</option>
+				<option value="elektro">электро</option>
+				<option value="gibridnii">гибридный</option>
+
+			</select>
+				</div>
+
+
+
+				<div class="form_item">
+			<div class="form_label">Объем двигателя</div>
+			<select name="Vdvigatel" class="select">
+				<option value="NoVariant" selected>не выбран</option>
+				<option value="0.8">0.8</option>
+				<option value="0.9">0.9</option>
+				<option value="1">1</option>
+				<option value="1.1">1.1</option>
+				<option value="1.2">1.2</option>
+				<option value="1.3">1.3</option>
+				<option value="1.4">1.4</option>
+				<option value="1.5">1.5</option>
+				<option value="1.6">1.6</option>
+				<option value="1.7">1.7</option>
+				<option value="1.8">1.8</option>
+				<option value="1.9">1.9</option>
+				<option value="2">2</option>
+				<option value="2.1">2.1</option>
+				<option value="2.2">2.2</option>
+				<option value="2.3">2.3</option>
+				<option value="2.4">2.4</option>
+				<option value="2.5">2.5</option>
+				<option value="2.6">2.6</option>
+				<option value="2.7">2.7</option>
+				<option value="2.8">2.8</option>
+				<option value="2.9">2.9</option>
+				<option value="3">3</option>
+				<option value="3.1">3.1</option>
+				<option value="3.2">3.2</option>
+				<option value="3.3">3.3</option>
+				<option value="3.4">3.4</option>
+				<option value="3.5">3.5</option>
+				<option value="3.6">3.6</option>
+				<option value="3.7">3.7</option>
+				<option value="3.8">3.8</option>
+				<option value="3.9">3.9</option>
+				<option value="4">3</option>
+				<option value="4.1">4.1</option>
+				<option value="4.2">4.2</option>
+				<option value="4.3">4.3</option>
+				<option value="4.4">4.4</option>
+				<option value="4.5">4.5</option>
+				<option value="4.6">4.6</option>
+				<option value="4.7">4.7</option>
+				<option value="4.8">4.8</option>
+				<option value="4.9">4.9</option>
+				<option value="5">5</option>
+				<option value="5.1">5.1</option>
+				<option value="5.2">5.2</option>
+				<option value="5.3">5.3</option>
+				<option value="5.4">5.4</option>
+				<option value="5.5">5.5</option>
+				<option value="5.6">5.6</option>
+				<option value="5.7">5.7</option>
+				<option value="5.8">5.8</option>
+				<option value="5.9">5.9</option>
+        <option value="6">5</option>
+			</select>
+				</div>
+
+
+
+				<div class="form_item">
+			<div class="form_label">Год выпуска</div>
+			<select name="gotvipuska" class="select">
+				<option value="NoVariant" selected>не выбран</option>
+				<option value="2021">2021</option>
+				<option value="2020">2020</option>
+				<option value="2019">2019</option>
+				<option value="2018">2018</option>
+				<option value="2017">2017</option>
+				<option value="2016">2016</option>
+				<option value="2015">2015</option>
+				<option value="2014">2014</option>
+				<option value="2013">2013</option>
+				<option value="2012">2012</option>
+				<option value="2011">2011</option>
+				<option value="2010">2010</option>
+				<option value="2009">2009</option>
+				<option value="2008">2008</option>
+				<option value="2007">2007</option>
+				<option value="2006">2006</option>
+				<option value="2005">2005</option>
+				<option value="2004">2004</option>
+				<option value="2003">2003</option>
+				<option value="2002">2002</option>
+				<option value="2001">2001</option>
+				<option value="2000">2000</option>
+				<option value="1999">1999</option>
+				<option value="1998">1998</option>
+				<option value="1997">1997</option>
+				<option value="1996">1996</option>
+				<option value="1995">1995</option>
+				<option value="1994">1994</option>
+				<option value="1993">1993</option>
+				<option value="1992">1992</option>
+				<option value="1991">1991</option>
+				<option value="1990">1990</option>
+				<option value="1989">1989</option>
+				<option value="1988">1988</option>
+				<option value="1987">1987</option>
+				<option value="1986">1986</option>
+				<option value="1985">1985</option>
+
+			</select>
+				</div>
+
+
+
+
+<div class="form_item">
+			<div class="form_label">Диаметр дисков</div>
+			<select name="diametrdiskov" class="select">
+				<option value="NoVariant" selected>не выбран</option>
+				<option value="12">12</option>
+				<option value="13">13</option>
+				<option value="14">14</option>
+				<option value="15">15</option>
+				<option value="16">16</option>
+				<option value="17">17</option>
+				<option value="18">18</option>
+				<option value="19">19</option>
+				<option value="20">20</option>
+				<option value="22">22</option>
+				<option value="23">23</option>
+				<option value="24">24</option>
+				
+
+			</select>
+				</div>
+
+
+
+<div class="form_item">
+			<div class="form_label">Тип дисков</div>
+			<select name="tipdiskov" class="select">
+				<option value="NoVariant" selected>не выбран</option>
+				<option value="litoy">Литой</option>
+				<option value="shtampovannii">Штампованный</option>
+				
+				</select>
+				</div>
+
+
+
+<div class="form_item">
+			<div class="form_label">Производитель</div>
+			<select name="proizvoditel" class="select">
+				<option value="NoVariant" selected>не выбран</option>
+				<option value="5-zigen">5-zigen</option>
+				<option value="Advan">Advan</option>
+				<option value="AEZ">AEZ</option>
+				<option value="Alutec">Alutec</option>
+				<option value="BBC">BBC</option>
+				<option value="DOTZ">DOTZ</option>
+				<option value="Enkei">Enkei</option>
+				<option value="K&K">K&K</option>
+				<option value="Konig">Konig</option>
+				<option value="Kosei">Kosei</option>
+				<option value="MAK">MAK</option>
+				<option value="OZ">OZ</option>
+				<option value="Rays">Rays</option>
+				<option value="Rial">Rial</option>
+				<option value="Rotiform">Rotiform</option>
+				<option value="Sparco">Sparco</option>
+				<option value="Vossen">Vossen</option>
+				<option value="WALD<">WALD</option>
+				<option value="Weds">Weds</option>
+				<option value="Work">Work</option>
+				<option value="drugoi">другой</option>
+				</select>
+				</div>
+
+<div class="form_item">
+			<label for="colo" class="form_lable">Цвет:</label>
+			<input id="colo" type="text" name="color" class="form_input">
+		</div>
+
+
+
+
+<div class="form_item">
+				<div class="form_label">Прикрепить фото </div>
+				<div class="file">
+					<div class="file_item">
+						<input id="formImage" accept=".jpg, .png, .gif" type="file" name="image" class="file_input">
+						<div class="file_button">Выбрать</div>
+					</div>
+
+					<div id="formPreview" class="file_preview"></div> <!--для видимоти выбранного файла в форме-->
+			
+		</div>
+	</div>
+
+
+
+		<div class="form_item">
+			<label for="formMessage" class="form_label">Укажите дополнительную информацию:</label>
+            <textarea name="message" id="form_Message" class="form_input"></textarea>
+				</div>
+
+
+
+
+
+
+
+
+
+		<div class="form_item">
+			<div class="checkbox">
+				<input  id="formAgreement" checked  type="checkbox"  name="agreement" class="checkbox_input _req"> <!--checked означает выбор этого элемента в форме-->
+				<label  for="formAgreement" class="checkbox_label"><span>Я даю свое согласие на обработку персональных данных в соответствии <a href="../Документы/Соглашение/agree.html">с условием</a></span></label>
+			</div>
+		</div>
+		<button type="submit" class="form_button">Отправить</button>
+	</form>
+				</div>
+				
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+<!-- колонтитул -->
+<div class="footer">
+
+	<div class="logo">
+	<img src="../imgs/logoico.png" width="101" height="101" alt="Логотип">
+	</div>
+
+  <div class="copyright">
+	      <p> © Автосервис в Нововоронеже</p>
+<p>
+	 <ul>
+   <a href="../index.html">Главная</a>
+      <a href="../Запчасти/zap.html">Запчасти</a>
+		 <a href="../Шины/shini.html">Шины</a>
+		 <a href="diski.html">Диски</a>
+       <a href="../Контакты/contact.html">Контакты</a>
+
+    </ul>
+</p>
+ </div>
+	 
+    <div class="signup">
+
+      <form class="container">
+
+	   <p>
+		 <img src="../imgs/cell.ico"width="30" height="30" alt="тел."> <a href="tel:+7 (910) 340 30 68">+7 (910) 340 30 68</a>
+			
+	  </p>
+ <p>
+     <img src="../imgs/cell.ico"  width="30" height="30" alt="тел."> <a href="tel:+7 (910) 241 69 78">+7 (910) 241 69 78</a>
+      
+    </p>
+       <p>
+        <img src="../imgs/emails.ico" width="30" height="30" alt="Отправить"> 
+		   <a href="mailto:serzhxarin@yandex.ru">Написать нам письмо</a>
+	     
+	  </p>
+
+ <p>
+        <img src="../imgs/insta.ico"width="30" height="30" alt="Инстаграм"> 
+       <a href="https://instagram.com/auto_nv?utm_medium=copy_link">Наш инстаграм</a>
+       
+    </p>
+
+    <p>
+        <img src="../imgs/nav.ico"width="30" height="30" alt="Навигатор"> 
+       <a href="https://goo.gl/maps/zYyRNbcb49HuoSU19">51.315558, 39.229919</a>
+       
+    </p> 
+      </form>
+
+  </div>
+	
+</div>
+
+	
+
+
+
+
+
+<script src="js/form.js"></script>
+
+
+
+
+
+
+	</body>
+</html>

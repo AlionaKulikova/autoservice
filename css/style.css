@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@691&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+@keyframes move  {
+   
+  0% { opacity: 1; background: url(../img/header.jpg) 100% 100% no-repeat;padding: 0px;  background-size: cover; }
+   20% {background: url(../img/2an.jpg) 100% 100% no-repeat; padding: 0; background-size: cover;   }
+  
+  40% {background: url(../img/3an.jpg) 100% 100% no-repeat; padding: 0; background-size:cover;   }
+ 
+
+   60% {background: url(../img/4an.jpg) 100% 100% no-repeat; padding: 0; background-size: cover;   }
+  
+ 
+    
+   80% {background: url(../img/an.jpg) 100% 100% no-repeat; padding: 0; background-size: cover;   }
+  100% { opacity: 1; background: url(../img/header.jpg) 100% 100% no-repeat; padding: 0; background-size: cover; }
+}
+
+.header {
+   
+
+  height: 800px;
+  animation: move 60s infinite ease-in;
+ }
+  
+
+  
+   
+a { 
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+   }
+
+.section {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.info {
+  background-color: white;
+}
+
+
+
+.action {
+  
+  text-align: center;
+  padding-top: 37px;
+}
+
+.action h1 {
+font-family: 'Jura', sans-serif;
+font-size: 100px;
+color: #2B2B2B; ;
+  margin: 30px 0 0 0;
+  font-weight: 900;
+  color:#FF0000;
+  word-break: break-all;
+}
+
+.action h2{
+ font-family: 'Jura', sans-serif;
+ 
+  margin: 0 0 20px 0;
+  font-weight: 600; 
+
+  word-break: break-all;
+
+}
+.boxes div  {
+font-family: 'Play', sans-serif;
+color: #2B2B2B;
+ font-weight: 900px;
+ font-size: 100%;
+
+}
+
+#pzag {
+  font-size: 50px;
+}
+
+.info h2 {
+  font-size: 3.8rem;
+  text-align: center;
+}
+.info .button {
+  background-color: white;
+  border: none;
+  color: #FF0000;}
+
+.info .button:hover {
+  background-color: #2B2B2B;
+  color: white;
+  border: none;
+}
+
+.info .section:first-of-type {
+  padding-bottom: 0;
+}
+.info .section:nth-of-type(2) {
+  padding-top: 0;
+}
+
+form input {
+  color: black;
+}
+
+.boxes{display:flex; flex-flow: row wrap;}
+
+.boxes div {
+  flex: 1 1 250px;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 10px 10px 0 10px;
+  background-color: rgba(232,232,232,0.32);
+  display: flex;
+  flex-flow: column;
+}
+.boxes .more {margin-top: auto;}
+
+.action h2 {
+  margin: 0 0 20px 0;
+  font-size: 15px;
+  font-weight: 600; 
+  color:#4B575F;
+}
+
+
+@media (max-width: 500px) {
+  @keyframes move  {
+   
+  0% {  background: url(../img/header.jpg) 100% 100% no-repeat;padding: 0px;  background-size: cover; background-position: center; background-attachment: fixed;}
+   20% {background: url(../img/2an.jpg)) 100% 100% no-repeat; padding: 0; background-size: cover; background-position: center; background-attachment: fixed; }
+  
+  40% {background: url(../img/3an.jpg) 100% 100% no-repeat; padding: 0; background-size:cover;  background-position: center; background-attachment: fixed; }
+
+   60% {  background: url(../img/4an.jpg) 100% 100% no-repeat; padding: 0; background-size: cover;   background-position: right; background-attachment: fixed;}
+    80% {  background: url(../img/5an.jpg) 100% 100% no-repeat; padding: 0; background-size: cover;   background-position: right; background-attachment: fixed;}
+  
+ 100% {  background: url(../img/header.jpg) 100% 100% no-repeat;padding: 0px;  background-size: cover; background-position: center; background-attachment: fixed;}
+   
+  
+  }
+
+  .header {
+   
+
+  height: 800px;
+  animation: move 50s infinite ease-in;
+   
+ }
+
+  }
+ 
+  @media (max-width: 360px) {
+  @keyframes move  {
+   
+  0% {  background: url(../img/header.jpg) 100% 100% no-repeat;padding: 0px;  background-size: cover; background-position: center; background-attachment: fixed;}
+   20% {background: url(../img/2an.jpg) 100% 100% no-repeat; padding: 0; background-size: cover; background-position: center; background-attachment: fixed; }
+  
+  40% {background: url(../img/3an.jpg) 100% 100% no-repeat; padding: 0; background-size:cover;  background-position: center; background-attachment: fixed; }
+
+   60% {  background: url(../img/4an.jpg) 100% 100% no-repeat; padding: 0; background-size: cover;   background-position: right; background-attachment: fixed;}
+    80% {  background: url(../img/5an.jpg) 100% 100% no-repeat; padding: 0; background-size: cover;   background-position: right; background-attachment: fixed;}
+  
+ 100% {  background: url(../img/header.jpg) 100% 100% no-repeat;padding: 0px;  background-size: cover; background-position: center; background-attachment: fixed;}
+   
+  
+  }
+
+.header {
+   
+
+  height: 800px;
+  animation: move 50s infinite ease-in;
+ }
+ 
+}
+
+

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+<meta charset="utf-8">
+<title> Автосервис в Нововоронеже</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="../imgs/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="../css/form.css">
+ <link rel="stylesheet" href="../css/styles.css">
+	
+</head>
+<body>
+<!-- основной раздел -->
+<div class="header">
+	
+  <div class="section">
+	  
+    <div class="nav">
+	<a class="button" href="../index.html">Главная</a>
+        <a class="button  button-primary" href="zap.html">Запчасти</a>
+    <a class="button" href="../Шины/shini.html">Шины</a>
+    <a class="button" href="../Диски/diski.html">Диски</a>
+    	<a class="button" href="../Контакты/contact.html">Контакты</a>
+    </div>
+    
+  </div>
+</div>
+
+
+
+
+
+<div class="info">
+	 <h1>Запчасти</h1>
+	 <a class="button" href="#" onclick="history.back(-1);">Назад</a>
+<a class="button" href="../Документы/Информация/info.html">Инфо</a>
+
+
+	
+<div class="warpper">
+
+	
+<div class="form">
+
+		<form action="sendmail.php" accept-charset="windows-1251" enctype="multipart/form-data" method="post" id="form" class="form_body">
+		<h1 class="form_title">Заказ запчастей</h1>
+
+		<div class="form_item">
+			<label for="forName" class="form_lable">Имя*:</label>
+			<input id="forName" type="text" name="name" class="form_input _req">
+		</div>
+
+<div class="form_item">
+			<label for="forTel" class="form_lable">Телефон*:</label>
+			<input id="forTel" type="text" name="telephone" class="form_input _req">
+		</div>
+
+
+
+<div class="form_item">
+			<label for="forEmail" class="form_lable">E-mail*:</label>
+			<input id="forEmail" type="text" name="email" class="form_input _req _email">
+		</div>
+
+<div class="form_item">
+			<label for="forVIN" class="form_lable">VIN автомобиля:</label>
+			<input id="forVIN" type="text" name="vinavto" class="form_input">
+		</div>
+
+<div class="form_item">
+				<div class="form_label">Прикрепить фото (Ваш VIN) </div>
+				<div class="file">
+					<div class="file_item">
+						<input id="formImage" accept=".jpg, .png, .gif" type="file" name="image" class="file_input">
+						<div class="file_button">Выбрать</div>
+					</div>
+
+					<div id="formPreview" class="file_preview"></div> <!--для видимоти выбранного файла в форме-->
+			
+		</div>
+	</div>
+
+
+
+
+
+
+		<div class="form_item">
+			<label for="formMessage" class="form_label">Укажите дополнительную информацию:</label>
+            <textarea name="message" id="form_Message" class="form_input"></textarea>
+				</div>
+
+
+
+
+<div class="form_item">
+	<div class="checkbox">
+   <label for="formRasTO" class="form_label">Расходники на ТО:</label>
+    <input id="motormasl" type="checkbox"  name="mmasl" class="checkbox_input_add" > <label for="motormasl" class="" > Моторное масло</label><br>
+    <input id="transmismasl" type="checkbox"  name="tmasl" class="checkbox_input_add"><label for="transmismasl" class="checkbox_label_add" > Трансмиссионное масло</label><br>
+    <input id="filtmasl" type="checkbox"  name="fmasl" class="checkbox_input_add"><label for="filtmasl" class="checkbox_label_add" > Фильтр масляный</label><br>
+      <input id="filtvozd" type="checkbox"  name="fvozd" class="checkbox_input_add"><label for="filtvozd" class="checkbox_label_add" > Фильтр воздушный</label><br>
+    <input id="filtsal" type="checkbox"  name="fsal" class="checkbox_input_add"><label for="filtsal" class="checkbox_label_add" >Фильтр салонный</label><br>
+    <input id="filttopl" type="checkbox"  name="ftop" class="checkbox_input_add"><label for="filttopl" class="checkbox_label_add" > Фильтр топливный</label><br>
+    <input id="svzazh" type="checkbox"  name="szazh" class="checkbox_input_add"><label for="svzazh" class="checkbox_label_add" > Свечи зажигания</label><br>
+    <input id="kolodtp" type="checkbox"  name="ktormp" class="checkbox_input_add"><label for="kolodtp" class="checkbox_label_add" > Колодки тормозные (передние)</label><br>
+    <input id="kolodtz" type="checkbox" name="ktormz"  class="checkbox_input_add"><label for="kolodtz" class="checkbox_label_add" > Колодки тормозные (задние)</label>
+  </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+			
+
+		<div class="form_item">
+			<div class="checkbox">
+				<input  id="formAgreement" checked  type="checkbox"  name="agreement" class="checkbox_input _req"> <!--checked означает выбор этого элемента в форме-->
+				<label  for="formAgreement" class="checkbox_label"><span>Я даю свое согласие на обработку персональных данных в соответствии <a href="../Документы/Соглашение/agree.html">с условием</a></span></label>
+			</div>
+		</div>
+		<button type="submit" class="form_button">Отправить</button>
+	</form>
+				</div>
+				
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- колонтитул -->
+<div class="footer">
+
+	<div class="logo">
+	<img src="../imgs/logoico.png"  width="101" height="101" alt="Логотип">
+	</div>
+
+  <div class="copyright">
+	      <p> © Автосервис в Нововоронеже</p>
+<p>
+	 <ul>
+   <a href="../index.html">Главная</a>
+      <a href="zap.html">Запчасти</a>
+		 <a href="../Шины/shini.html">Шины</a>
+		 <a href="../Диски/diski.html">Диски</a>
+       <a href="../Контакты/contact.html">Контакты</a>
+
+    </ul>
+</p>
+ </div>
+	 
+    <div class="signup">
+
+      <form class="container">
+
+	   <p>
+		 <img src="../imgs/cell.ico"   width="30" height="30" alt="тел."> <a href="tel:+7 (910) 340 30 68">+7 (910) 340 30 68</a>
+			
+	  </p>
+ <p>
+     <img src="../imgs/cell.ico"  width="30" height="30" alt="тел."> <a href="tel:+7 (910) 241 69 78">+7 (910) 241 69 78</a>
+      
+    </p>
+       <p>
+        <img src="../imgs/emails.ico" width="30" height="30" alt="Отправить"> 
+		   <a href="mailto:serzhxarin@yandex.ru">Написать нам письмо</a>
+	     
+	  </p>
+
+ <p>
+        <img src="../imgs/insta.ico"width="30" height="30" alt="Инстаграм"> 
+       <a href="https://instagram.com/auto_nv?utm_medium=copy_link">Наш инстаграм</a>
+       
+    </p>
+
+    <p>
+        <img src="../imgs/nav.ico"width="30" height="30" alt="Навигатор"> 
+       <a href="https://goo.gl/maps/zYyRNbcb49HuoSU19">51.315558, 39.229919</a>
+       
+    </p> 
+      </form>
+
+  </div>
+	
+</div>
+
+
+
+
+
+
+
+<script src="js/form.js"></script>
+
+
+
+
+
+
+	</body>
+</html>
